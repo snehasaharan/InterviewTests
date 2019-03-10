@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GraduationTracker
 {
-    public partial class GraduationTracker
+    public partial class GraduationTracker:IGraduationTracker
     {   
         public Tuple<bool, STANDING>  HasGraduated(Diploma diploma, Student student)
         {
